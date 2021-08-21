@@ -1,0 +1,7 @@
+note over browser:
+user enters a note and the note is sent via HTTP post to the server
+concurrently, note is rendered using javascript
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTML 201 returned
